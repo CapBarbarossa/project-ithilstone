@@ -9,9 +9,21 @@ body {
 
 body {
   @apply bg-slate-950 text-slate-100 antialiased;
+  /* Improve rendering quality for gradients and blur effects */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
 }
 
 * {
   box-sizing: border-box;
+}
+
+/* Optimize rendering for blur and gradient effects */
+[class*="blur"] {
+  transform: translateZ(0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  will-change: transform;
 }
 
