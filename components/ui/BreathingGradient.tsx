@@ -6,7 +6,6 @@ export const BreathingGradient = () => {
         className="pointer-events-none absolute -top-40 -left-32 h-[420px] w-[420px] rounded-full bg-purple-500/40 blur-[140px] will-change-transform animate-breathe-slow"
         style={{
           transform: "translateZ(0)",
-          imageRendering: "high-quality",
           WebkitBackfaceVisibility: "hidden",
           backfaceVisibility: "hidden",
         }}
@@ -18,7 +17,6 @@ export const BreathingGradient = () => {
         className="pointer-events-none absolute top-1/3 -right-40 h-[460px] w-[460px] rounded-full bg-cyan-400/40 blur-[160px] will-change-transform animate-breathe-medium"
         style={{
           transform: "translateZ(0)",
-          imageRendering: "high-quality",
           WebkitBackfaceVisibility: "hidden",
           backfaceVisibility: "hidden",
         }}
@@ -30,7 +28,6 @@ export const BreathingGradient = () => {
         className="pointer-events-none absolute bottom-[-160px] left-1/4 h-[520px] w-[520px] rounded-full bg-fuchsia-500/40 blur-[180px] will-change-transform animate-breathe-fast"
         style={{
           transform: "translateZ(0)",
-          imageRendering: "high-quality",
           WebkitBackfaceVisibility: "hidden",
           backfaceVisibility: "hidden",
         }}
